@@ -14,6 +14,9 @@ public class LogInButton : MonoBehaviour
     private string password = "password123";
 
     [SerializeField]
+    private string sceneName;
+
+    [SerializeField]
     private TMP_Text ErrorUsername;
     [SerializeField]
     private TMP_Text ErrorPassword;
@@ -32,7 +35,7 @@ public class LogInButton : MonoBehaviour
         
         if (passwordInputField.text == password && usernameInputField.text == username)
         {
-            SceneManager.LoadScene("MyScene");
+            SceneManager.LoadScene(sceneName);
         }
 
     }

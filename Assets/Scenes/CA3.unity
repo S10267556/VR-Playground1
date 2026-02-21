@@ -2427,6 +2427,7 @@ MonoBehaviour:
   passwordInputField: {fileID: 1237702380}
   username: player123
   password: password123
+  sceneName: CA4
   ErrorUsername: {fileID: 283400229}
   ErrorPassword: {fileID: 1706914753}
 --- !u!1 &1925878717
